@@ -2,8 +2,8 @@
 
 FROM ubuntu:16.04
 
-ENV http_proxy http://cache-adm.univ-artois.fr:8080/
-ENV https_proxy https://cache-adm.univ-artois.fr:8080/
+# ENV http_proxy http://cache-adm.univ-artois.fr:8080/
+# ENV https_proxy https://cache-adm.univ-artois.fr:8080/
 
 RUN apt-get -y update && apt-get install -y g++-4.9 \
     zlib1g-dev \
